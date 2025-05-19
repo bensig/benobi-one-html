@@ -22,6 +22,14 @@ description = "about"
 - Dedicated to advancing Bitcoin's mission of creating a more open and equitable financial system
 - Focus on making Bitcoin accessible to the billions of people worldwide who lack access to traditional banking services
 
+## Short Bio
+
+Ben is a Bitcoin advocate and technology entrepreneur with over two decades of experience in software development and systems engineering. After successfully exiting his IT consulting company in 2019, he has dedicated his career to advancing Bitcoin adoption and education globally. His work focuses on making Bitcoin accessible to underserved communities and developing innovative solutions for financial inclusion.
+
+## Headshot
+
+![Benobi's headshot](/images/benobi-headshot.png)
+
 ## About This Site
 
 This site documents my Bitcoin advocacy work, projects, and thoughts on the evolution of money and technology.
