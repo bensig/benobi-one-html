@@ -8,8 +8,8 @@ description = "about"
 ## Current Projects & Interests
 
 - Founder and lead developer of [Bitcoin Libre](https://www.bitcoinlibre.io), building a simple and accessible Bitcoin wallet and lending platform
-- Co-author of the [Big Bitcoin Book](https://www.bigbitcoinbook.com), a comprehensive visual history of Bitcoin's first 15 years
-- Organizer of [Bitcoin First](https://bitcoinfirst2024.com), an unconference focused on Bitcoin education and collaboration
+- Co-author of the [Big Bitcoin Book](https://www.bigbitcoinbook.com), a comprehensive visual history of Bitcoin's first 15 years that sold $200k worth of books in 13 hours on presale and has achieved $500k in sales in less than one year
+- Organizer of [Bitcoin Alpha](https://bitcoinalpha.org), a nonprofit yearly unconference held every October focused on Bitcoin education and collaboration
 - Bitcoin advocate focused on expanding adoption globally, especially in regions with limited access to traditional banking
 - Leading [Bitcoin diplomacy initiatives](https://benobi.one/initiatives/) in developing nations
 

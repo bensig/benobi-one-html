@@ -18,20 +18,43 @@ Working on an undisclosed new project. Updates soon.
 {{% /portfolio %}} 
 --->
 
-## [Bitcoin First (2024)](https://bitcoinfirst2024.com)
+## [Libre.org (2025)](https://libre.org)
 
-{{% portfolio image="/images/bitcoin-first-event.jpg" alt="Bitcoin First Event Logo" link="https://bitcoinfirst2024.com"  class="portfolio-image"%}}
+{{% portfolio image="/images/borrow-or-lend.png" alt="Libre Lending Platform" link="https://libre.org"  class="portfolio-image"%}}
 
-Planner and producer of "Bitcoin First", an unconference event held in Santa Monica on October 18, 2024. This gathering brought together Bitcoin enthusiasts, developers, and thought leaders for a day of collaborative discussions and knowledge sharing.
+Libre.org is a decentralized Bitcoin lending platform that allows users to borrow USDT against Bitcoin collateral or lend USDT backed by over 200% Bitcoin collateral. The platform operates without KYC requirements and uses advanced cryptographic security. Available on both mobile (iOS/Android) and desktop at [defi.libre.org](https://defi.libre.org/), with minimum loans of $100 and direct USDT transfers to external wallets.
 
 {{% /portfolio %}}
 
+## [Libre Crosslink Bridge (2024)](https://docs.libre.org/libre-docs/cross-chain-interoperability/crosslink-mpc-tss-bridge)
+
+{{% portfolio image="/images/libre-crosslink.png" alt="Libre Crosslink Bridge" link="https://docs.libre.org/libre-docs/cross-chain-interoperability/crosslink-mpc-tss-bridge"  class="portfolio-image"%}}
+
+The Libre Crosslink Bridge uses MPC (Multi-Party Computation) technology with TSS (Threshold Signature Scheme) and smart contracts on Libre to provide decentralized custody of Bitcoin. This enables lending vaults and wrapped Bitcoin on Libre to power the DEX, creating a secure bridge between Bitcoin and the Libre ecosystem.
+
+{{% /portfolio %}}
+
+## [Bitcoin Alpha (2024)](https://bitcoinalpha.org)
+
+{{% portfolio image="/images/bitcoin-alpha.png" alt="Bitcoin Alpha Event Logo" link="https://bitcoinalpha.org"  class="portfolio-image"%}}
+
+Planner and producer of "Bitcoin Alpha", a nonprofit yearly unconference held every October in Santa Monica. The inaugural event on October 18, 2024 brought together Bitcoin enthusiasts, developers, and thought leaders for a day of collaborative discussions and knowledge sharing.
+
+{{% /portfolio %}}
 
 ## [Big Bitcoin Book (2024)](https://www.bigbitcoinbook.com)
 
 {{% portfolio image="/images/big-bitcoin-book.jpg" alt="Big Bitcoin Book Cover" link="https://www.bigbitcoinbook.com"  class="portfolio-image"%}}
 
-Co-author of "Big Bitcoin Book", a visual recap of Bitcoin's first 15 years. This comprehensive work explores the motivations behind Bitcoin's creation, the road to its inception, an in-depth look at the original whitepaper, the Bitcoin 0.1 release, and the subsequent market cycles.
+Co-author of "Big Bitcoin Book", a visual recap of Bitcoin's first 15 years. This comprehensive work explores the motivations behind Bitcoin's creation, the road to its inception, an in-depth look at the original whitepaper, the Bitcoin 0.1 release, and the subsequent market cycles. The book sold $200k worth of books in 13 hours on presale and has achieved $500k in sales in less than one year.
+
+{{% /portfolio %}}
+
+## [Libre Chain (2023)](https://chain.libre.org)
+
+{{% portfolio image="/images/libre-l2.png" alt="Libre.org Bitcoin Sidechain" link="https://chain.libre.org"  class="portfolio-image"%}}
+
+A Bitcoin sidechain built on DPOS (Delegated Proof of Stake) with a fair launch "Mint Rush" that raised over $2M at the time for DAO funding in exchange for staked LIBRE. Funders could claim their tokens with 1/365 per day vesting for a year, allowing many to recoup their Bitcoin investment while still funding development of the platform.
 
 {{% /portfolio %}}
 
@@ -130,7 +153,7 @@ Rebranding of a company I started back in 2006 to help techies find work and sol
 
 {{% portfolio image="/images/local_tile.png" alt="Project LOCAL" link="/404.html"%}}
 
-The idea of Project LOCAL is to re-brand the label “Made in America” as “Local" to make “Made in America” cool again… This would be a product database / label schema which would add transparency to where the product materials were sourced and where they were assembled.
+The idea of Project LOCAL is to re-brand the label "Made in America" as "Local" to make "Made in America" cool again… This would be a product database / label schema which would add transparency to where the product materials were sourced and where they were assembled.
 
 Eventually, Project Local will create brick and mortar stores that sold US-produced household goods and goodies – like a Target / Wal-Mart store. However, instead of products made in China, Indonesia, Vietnam… These goods would be entirely produced in the US.
 
