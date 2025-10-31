@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ben Sigman">
+    <meta name="description" content="http://localhost:1313/">
+    <meta name="keywords" content="bitcoin,engineering,product,leadership,developer,blockchain">
+
+    <meta property="og:site_name" content="Benobi.one">
+    <meta property="og:title" content="
+  The Importance of Writing Good Spec Docs - Benobi.one
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:1313/posts.bak/writing_spec_docs/">
+    <meta property="og:image" content="http://localhost:1313/images/benobi-one.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="http://localhost:1313/posts.bak/writing_spec_docs/">
+    <meta name="twitter:image" content="http://localhost:1313/images/benobi-one.png">
+
+    <base href="http://localhost:1313/posts.bak/writing_spec_docs/">
+    <title>
+  The Importance of Writing Good Spec Docs - Benobi.one
+</title>
+
+    <link rel="canonical" href="http://localhost:1313/posts.bak/writing_spec_docs/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+      <link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Benobi.one">
+      <link href="http://localhost:1313/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
+    
+
+    <meta name="generator" content="Hugo 0.145.0">
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Benobi.one</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/projects">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/initiatives">Advocacy</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/resources">Resources</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>The Importance of Writing Good Spec Docs</h1>
+    </header>
+
+    <p>Writing spec documents is an important aspect of building a product. As I wrote about in <a href="https://benobi.one/posts/building_retro_ping/">my post about building a simple iOS app</a>, even if I am building an app myself - I start with a specification document. it&rsquo;s very useful as a tool to think through all of my product interactions and explain how they will work. If I cannot explain it very simply, then I will not be able to build it - neither will anyone else!</p>
+<p>In addition, with a team, it&rsquo;s a very useful way to get feedback and &ldquo;buy-in&rdquo; from your team. If you cannot convince your team that something should be built a certian way, then you probably should not be building it.</p>
+<p>The structure of the spec is really dependent on what you are building. I like to break down spec documents by each feature - for exmaple: authentication, image upload, and view image gallery.</p>
+<h2 id="spec-document-minimum-requirements">Spec Document Minimum Requirements</h2>
+<p>The spec document should answer the following questions at a minimum:</p>
+<ol>
+<li>What is this feature for?</li>
+<li>Who will use it? (Is this for users, superusers, or internal to your company?)</li>
+<li>How will they use it? (Exact steps.)</li>
+<li>What other features does this affect? (Those features might have separate documents that are linked.)</li>
+<li>What technology is planned to be leveraged? (3rd party libraries, or SDKs should be mentioned here.)</li>
+<li>How will we know when this feature is completed? (Acceptance criteria that everyone can agree upon.)</li>
+</ol>
+<p>Now, you will have something that everyone can look at and agree upon. It might seem like a lot of work to do this for describing how a user logs into your app - but, it&rsquo;s not as complicated as letting your team figure this out on their own and then find out that it&rsquo;s done in a way that disagrees with your company&rsquo;s ethos or best practices in some way.</p>
+<h2 id="how-do-you-know-when-a-spec-doc-is-done">How do you know when a spec doc is done</h2>
+<p>There is a way to know when you are done. Whenever no one has any more questions about what you are building based on reading the spec document, then you are good. The two most critical people to understand the document fully is the developer and the product owner.</p>
+<p>Once your spec is finished, you must defend it. This is an important job for the product owner - preventing feature creep, or as I call it: <a href="https://benobi.one/posts/feature_creep/">defending the roadmap</a>.</p>
+
+  </article>
+</section>
+
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+    
+      <p>Support Digital Rights</p>
+    
+     
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Support Digital Freedom →→ <a id="privateTrigger">Click!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-13YHEX7C0B"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-13YHEX7C0B');
+        }
+      </script>
+
+  <script src="/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("Thank you for supporting the EFF!");
+      });
+    });
+   })(jQuery);
+  </script>
+  
+  </body>
+</html>

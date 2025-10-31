@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ben Sigman">
+    <meta name="description" content="http://localhost:1313/">
+    <meta name="keywords" content="bitcoin,engineering,product,leadership,developer,blockchain">
+
+    <meta property="og:site_name" content="Benobi.one">
+    <meta property="og:title" content="
+  Running Brew on the New Apple M1 Chip - Benobi.one
+">
+    <meta property="og:description" content="Getting brew to work on M1 Macbook">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:1313/posts.bak/running_brew_on_m1_for_x86/">
+    <meta property="og:image" content="http://localhost:1313/images/benobi-one.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="http://localhost:1313/posts.bak/running_brew_on_m1_for_x86/">
+    <meta name="twitter:image" content="http://localhost:1313/images/benobi-one.png">
+
+    <base href="http://localhost:1313/posts.bak/running_brew_on_m1_for_x86/">
+    <title>
+  Running Brew on the New Apple M1 Chip - Benobi.one
+</title>
+
+    <link rel="canonical" href="http://localhost:1313/posts.bak/running_brew_on_m1_for_x86/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+      <link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Benobi.one">
+      <link href="http://localhost:1313/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
+    
+
+    <meta name="generator" content="Hugo 0.145.0">
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Benobi.one</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/projects">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/initiatives">Advocacy</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/resources">Resources</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://localhost:1313/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Running Brew on the New Apple M1 Chip</h1>
+    </header>
+
+    <p>On the new Macbook M1 chip, you might get an error such as &ldquo;To install under x86_64, install Homebrew into /usr/local&rdquo; - which will take you down many rabbit holes. This is an actual solution that fully works.</p>
+<p>I used my GoogleFu and did not find a solution as simple as this:</p>
+<h2 id="5-simple-steps-to-install-intel-brew-on-m1">5 Simple Steps to Install Intel Brew on M1</h2>
+<ol>
+<li>Install Rosetta (this will fail if your Terminal is set to &ldquo;<a href="https://www.howtogeek.com/702982/how-to-launch-the-intel-version-of-a-universal-mac-app-on-apple-silicon/">Open using Rosetta</a>&rdquo;) by running <code>softwareupdate --install-rose</code></li>
+<li>Run this command to install the Intel architecture Homebrew
+<code>arch -x86_64 /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;</code></li>
+<li>Add this to your ZSH config (I recommend using <a href="https://ohmyz.sh/#install">OhMyZSH</a> + add a file called ~/.oh-my-zsh/custom/brew.zsh) with the contents:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="k">export</span> <span class="n">PATH</span><span class="o">=</span><span class="s2">&#34;/opt/homebrew/bin:/usr/local/bin:$PATH&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">alias</span> <span class="n">ibrew</span><span class="o">=</span><span class="s1">&#39;arch -x86_64 /usr/local/bin/brew&#39;</span>
+</span></span></code></pre></div><ol start="4">
+<li>Re-source your zsh term <code>source .zshrc</code></li>
+<li>Run Intel brew as <code>ibrew install &lt;whatever&gt;</code></li>
+</ol>
+<p>That&rsquo;s it! Now you can install brew for ARM and have ibrew for running Intel-specific apps under Rosetta. Super fast and simple solution!</p>
+<p>If you run into trouble, try typing <code>brew config</code> and <code>ibrew config</code> to make sure that your brew installs are really in their respectively correct folders - just look for the line &ldquo;HOMEBREW_PREFIX:&rdquo;.</p>
+<ul>
+<li>ARM brew will live in /opt/homebrew</li>
+<li>Intel brew will live in /usr/local</li>
+</ul>
+<p>Shoutout to <a href="https://soffes.blog/homebrew-on-apple-silicon">Sam Soffes</a> for his post on this topic that was helpful.</p>
+
+  </article>
+</section>
+
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+    
+      <p>Support Digital Rights</p>
+    
+     
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Support Digital Freedom →→ <a id="privateTrigger">Click!</a></p>
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+        
+        
+        
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-13YHEX7C0B"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-13YHEX7C0B');
+        }
+      </script>
+
+  <script src="/js/app.js"></script>
+  
+  <script>
+  (function($) {
+    $(function() {
+      $('#privateTrigger').on('click', function() {
+        $('.private').slideToggle();
+        $('#privateTriggerText').text("Thank you for supporting the EFF!");
+      });
+    });
+   })(jQuery);
+  </script>
+  
+  </body>
+</html>
