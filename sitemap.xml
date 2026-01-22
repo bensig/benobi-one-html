@@ -171,12 +171,12 @@
   </url><url>
     <loc>https://benobi.one/initiatives/</loc>
   </url><url>
-    <loc>https://benobi.one/resources/</loc>
-  </url><url>
     <loc>https://benobi.one/contact/</loc>
   </url><url>
     <loc>https://benobi.one/pocketcoding/</loc>
   </url><url>
     <loc>https://benobi.one/projects/</loc>
+  </url><url>
+    <loc>https://benobi.one/resources/</loc>
   </url>
 </urlset>
