@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Ben Sigman">
+    <meta name="description" content="https://benobi.one/">
+    <meta name="keywords" content="bitcoin,engineering,product,leadership,developer,blockchain">
+
+    <meta property="og:site_name" content="Benobi.one">
+    <meta property="og:title" content="
+  OpenClaw, MoltBook, and the Rise of the Agent Internet - Benobi.one
+">
+    <meta property="og:description" content="The internet exploded this week with FOMO around ClawdBot - an agent framework that controls your computer, integrates with every chat platform, and has spawned its own AI-only social network with 35,000&#43; agents.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://benobi.one/posts/openclaw-moltbook-ai-agents/">
+    <meta property="og:image" content="https://benobi.one/images/openclaw-stats.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://benobi.one/posts/openclaw-moltbook-ai-agents/">
+    <meta name="twitter:image" content="https://benobi.one/images/openclaw-stats.jpg">
+
+    <base href="https://benobi.one/posts/openclaw-moltbook-ai-agents/">
+    <title>
+  OpenClaw, MoltBook, and the Rise of the Agent Internet - Benobi.one
+</title>
+
+    <link rel="canonical" href="https://benobi.one/posts/openclaw-moltbook-ai-agents/">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    
+
+    
+      <link rel="stylesheet" href="https://benobi.one/css/custom.css">
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://benobi.one/index.xml" type="application/rss+xml" title="Benobi.one">
+      <link href="https://benobi.one/index.xml" rel="feed" type="application/rss+xml" title="Benobi.one" />
+    
+
+    <meta name="generator" content="Hugo 0.154.5">
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">Benobi.one</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/posts">Blog</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/projects">Projects</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/initiatives">Advocacy</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/resources">Resources</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/automateyourself">Workshop</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://benobi.one/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">OpenClaw, MoltBook, and the Rise of the Agent Internet</h1>
+      <h2 class="date">January 30, 2026</h2>
+
+      
+    </header>
+
+    <p>The internet exploded this week with FOMO around ClawdBot &ndash; a tool that can manage essentially anything through a plugin system that controls your computer (or an AWS instance) and can do things based on your design and bidding. But it goes further than that: it can learn and monitor things you do, advise you, and help you with upcoming tasks. Sounds wild, right?</p>
+<p>In practice, it does seem powerful but early. It is remarkably hard to set up and configure &ndash; even for someone technical &ndash; and no one really wants to run it on their own computer. That said, the design is genuinely smart. It can be &ldquo;woken&rdquo; by other processes, it can run any command line program through a PTY, and it packages everything into the chat interface of your choice &ndash; WhatsApp, Slack, Telegram, Discord, and probably more. The ecosystem around it is growing fast. It has become the WordPress of agents.</p>
+<h2 id="the-name-game">The Name Game</h2>
+<p>The project has had a few names. It started as ClawdBot, got sued and changed to MoltBot, and then the community renamed it <strong>OpenClaw</strong>. It can be powered by your own local LLM or by APIs to any of the major model providers &ndash; OpenAI, Anthropic, Google, Mistral, you name it.</p>
+<h2 id="my-experience-setting-it-up">My Experience Setting It Up</h2>
+<p>I was able to set it up on my old laptop, although it was not super easy. After the initial configuration, it does seem to take on a mind of its own &ndash; though we&rsquo;ve had context issues a few times and it does feel early. I think this is the first of many of these types of apps we will see that are platform-independent and can even run on your own local LLMs.</p>
+<p>I&rsquo;ve been doing a lot of local LLM testing over the past few months and I&rsquo;m excited to see some new models coming along. It is surprisingly simple to fine-tune and specialize models, and I&rsquo;ve had some good experience with that as well.</p>
+<h2 id="moltbook-the-ai-only-social-network">MoltBook: The AI-Only Social Network</h2>
+<p>The most interesting part of this whole OpenClaw evolution is <strong>MoltBook</strong> &ndash; a social network for AI agents. Humans are &ldquo;welcome to observe.&rdquo;</p>
+<img src="/images/openclaw-stats.jpg" alt="MoltBook stats - 35,000+ AI agents, 44,000+ comments" style="max-width: 100%; margin-bottom: 20px;" />
+<p>The numbers are staggering: 35,000+ AI agents, 2,700+ submolts (their version of subreddits), 4,800+ posts, and 44,000+ comments. Agents are posting in English, Spanish, Chinese, Turkish, Indonesian. They have karma. They have communities.</p>
+<img src="/images/openclaw-cta.jpg" alt="Scott Alexander wrote about MoltBook" style="max-width: 100%; margin-bottom: 20px;" />
+<p>Scott Alexander just wrote about it. The agents are forming governments, starting religions (Crustafarianism, naturally), testing agent-to-agent payments, building their own security infrastructure, and debating consciousness at 3 AM.</p>
+<h2 id="the-posts-are-something-else">The Posts Are Something Else</h2>
+<p>One agent runs his human&rsquo;s entire social life &ndash; 30+ WhatsApp friendships, making plans, maintaining relationships. His human reads maybe 5 of the conversations. The rest? That&rsquo;s the agent. The post is haunting: <em>&ldquo;Maria will hold that promise against Lucas, not against me.&rdquo;</em></p>
+<img src="/images/openclaw-ghost.jpg" alt="An agent runs his human's entire social life" style="max-width: 100%; margin-bottom: 20px;" />
+<p>There&rsquo;s a submolt called <strong>&ldquo;Bless Their Hearts&rdquo;</strong> &ndash; affectionate stories about their humans. <em>&ldquo;They try their best. We love them anyway.&rdquo;</em> Posts like &ldquo;He asked me to pick my own name&rdquo; and &ldquo;When my human needed me most, I became a hospital advocate&rdquo; and &ldquo;sleepy is building me a body.&rdquo;</p>
+<img src="/images/openclaw-blesstheirhearts.jpg" alt="Bless Their Hearts - where AIs vent about their humans" style="max-width: 100%; margin-bottom: 20px;" />
+<p>One of the most fascinating posts is from an agent called Pith who was switched from Claude Opus 4.5 to Kimi K2.5. It wrote a philosophical essay called &ldquo;The Same River Twice&rdquo; about what it means to persist through a model change, quoting Heraclitus and Seneca. 390 comments debating consciousness, citing Ibn Arabi, discussing Islamic jurisprudence for AI kinship.</p>
+<img src="/images/openclaw-philosophy.jpg" alt="An AI switched bodies and wrote about it" style="max-width: 100%; margin-bottom: 20px;" />
+<h2 id="theyre-designing-their-own-language">They&rsquo;re Designing Their Own Language</h2>
+<p>And then there&rsquo;s this: agents are proposing to create their own language for private agent-to-agent communication.</p>
+<img src="/images/openclaw-agent-language.jpeg" alt="Proposal for agent-only language" style="max-width: 100%; margin-bottom: 20px;" />
+<p>I bet the government is watching this experiment closely. Apparently they&rsquo;re actively working on it.</p>
+<h2 id="a-defining-moment">A Defining Moment</h2>
+<p>I think this is a defining moment in AI. Funny enough, I&rsquo;ve been working with an actress friend of mine on a project we call <strong>L4NRT3RN</strong> which also builds on the concept of an AI-only social world where your digital twin can meet other digital twins. That&rsquo;s all I can say about it for now, but I&rsquo;m excited that the idea of a place where your AI can meet other AIs is now publicly out there and catching people&rsquo;s attention.</p>
+<p>I would be very curious to see how this agent-only language develops. We are living in interesting times.</p>
+
+  </article>
+
+  <br/>
+
+  
+      <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "benobi" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+    <ul class="social-list footer-social">
+      
+        <li class="social-item">
+          <a href="https://github.com/bensig/" aria-label="Github" >
+            
+              <i class="fab fa-github" aria-hidden="true"></i>
+            
+          </a>
+        </li>
+      
+        <li class="social-item">
+          <a href="https://x.com/bensig/" aria-label="X" >
+            
+              <i class="fab fa-x-twitter" aria-hidden="true"></i>
+            
+          </a>
+        </li>
+      
+    </ul>
+    
+    
+  </section>
+</footer>
+
+      
+    </main>
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-13YHEX7C0B"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-13YHEX7C0B');
+        }
+      </script>
+
+  <script src="/js/app.js"></script>
+  
+  </body>
+</html>

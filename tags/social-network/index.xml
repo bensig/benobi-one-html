@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social-Network on Benobi.one</title>
+    <link>https://benobi.one/tags/social-network/</link>
+    <description>Recent content in Social-Network on Benobi.one</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Jan 2026 10:00:00 -0800</lastBuildDate>
+    <atom:link href="https://benobi.one/tags/social-network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenClaw, MoltBook, and the Rise of the Agent Internet</title>
+      <link>https://benobi.one/posts/openclaw-moltbook-ai-agents/</link>
+      <pubDate>Fri, 30 Jan 2026 10:00:00 -0800</pubDate>
+      <guid>https://benobi.one/posts/openclaw-moltbook-ai-agents/</guid>
+      <description>&lt;p&gt;The internet exploded this week with FOMO around ClawdBot &amp;ndash; a tool that can manage essentially anything through a plugin system that controls your computer (or an AWS instance) and can do things based on your design and bidding. But it goes further than that: it can learn and monitor things you do, advise you, and help you with upcoming tasks. Sounds wild, right?&lt;/p&gt;&#xA;&lt;p&gt;In practice, it does seem powerful but early. It is remarkably hard to set up and configure &amp;ndash; even for someone technical &amp;ndash; and no one really wants to run it on their own computer. That said, the design is genuinely smart. It can be &amp;ldquo;woken&amp;rdquo; by other processes, it can run any command line program through a PTY, and it packages everything into the chat interface of your choice &amp;ndash; WhatsApp, Slack, Telegram, Discord, and probably more. The ecosystem around it is growing fast. It has become the WordPress of agents.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

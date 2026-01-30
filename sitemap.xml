@@ -2,8 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://benobi.one/tags/agents/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/ai/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/categories/ai/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
     <loc>https://benobi.one/</loc>
-    <lastmod>2025-11-16T10:00:00-08:00</lastmod>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/categories/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/llm/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/moltbook/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/openclaw/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/openclaw-moltbook-ai-agents/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/posts/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/social-network/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://benobi.one/tags/</loc>
+    <lastmod>2026-01-30T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://benobi.one/categories/bitcoin/</loc>
     <lastmod>2025-11-16T10:00:00-08:00</lastmod>
@@ -14,9 +47,6 @@
     <loc>https://benobi.one/posts/bitcoin-one-pager-v3/</loc>
     <lastmod>2025-11-16T10:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://benobi.one/categories/</loc>
-    <lastmod>2025-11-16T10:00:00-08:00</lastmod>
-  </url><url>
     <loc>https://benobi.one/tags/difficulty-adjustment/</loc>
     <lastmod>2025-11-16T10:00:00-08:00</lastmod>
   </url><url>
@@ -24,12 +54,6 @@
     <lastmod>2025-11-16T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://benobi.one/tags/guide/</loc>
-    <lastmod>2025-11-16T10:00:00-08:00</lastmod>
-  </url><url>
-    <loc>https://benobi.one/posts/</loc>
-    <lastmod>2025-11-16T10:00:00-08:00</lastmod>
-  </url><url>
-    <loc>https://benobi.one/tags/</loc>
     <lastmod>2025-11-16T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://benobi.one/tags/japan/</loc>
