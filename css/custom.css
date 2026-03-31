@@ -19,7 +19,7 @@
 }
 
 .home-bio .current-projects a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .home-bio .home-ctas {
@@ -34,13 +34,32 @@
 }
 
 .home-bio .home-ctas a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-/* Override blue link hover color */
+/* Link style: bold text, no underline, orange animated underline on hover */
+p a {
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+
 p a:hover,
 p a:focus {
   color: #000;
+  text-decoration: none;
+}
+
+/* Override theme's blue hover and default underline everywhere */
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Orange animated underline instead of theme red */
+a:before, a:after {
+  background: #f7931a !important;
 }
 
 /* CTA button */
