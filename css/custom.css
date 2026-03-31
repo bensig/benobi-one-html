@@ -37,6 +37,35 @@
   text-decoration: underline;
 }
 
+/* Override blue link hover color */
+p a:hover,
+p a:focus {
+  color: #000;
+}
+
+/* CTA button */
+.btn-cta {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #f7931a;
+  color: #fff;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  margin: 1rem 0;
+}
+
+.btn-cta:hover {
+  background-color: #e8850f;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Footer social icons */
 .footer-social {
   display: flex;
