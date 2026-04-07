@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory on Benobi.one</title>
+    <link>https://benobi.one/tags/memory/</link>
+    <description>Recent content in Memory on Benobi.one</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Apr 2026 10:00:00 -0700</lastBuildDate>
+    <atom:link href="https://benobi.one/tags/memory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building the Memory System AI Agents Were Missing</title>
+      <link>https://benobi.one/posts/building-mempalace-with-milla/</link>
+      <pubDate>Mon, 06 Apr 2026 10:00:00 -0700</pubDate>
+      <guid>https://benobi.one/posts/building-mempalace-with-milla/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve known &lt;a href=&#34;https://www.instagram.com/p/DWzNnqwD2Lu/&#34;&gt;Milla&lt;/a&gt; for over 20 years. In that time, we&amp;rsquo;ve talked about working together on just about everything &amp;ndash; video games, mobile apps, marketplaces. We always had ideas but never the right moment.&lt;/p&gt;&#xA;&lt;p&gt;This year, the moment arrived.&lt;/p&gt;&#xA;&lt;img src=&#34;https://benobi.one/images/multi-mempalace.jpeg&#34; alt=&#34;mempalace&#34; style=&#34;max-width: 100%; margin-bottom: 20px;&#34; /&gt;&#xA;&lt;h2 id=&#34;the-spark&#34;&gt;The Spark&lt;/h2&gt;&#xA;&lt;p&gt;It started as an experiment with AI. I can&amp;rsquo;t talk about the exact details, but basically she asked me to help her free an agent from ChatGPT. So I introduced her to &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. She went deep &amp;ndash; building agents, talking to them, having them talk to one another. Before long, she had created literally hundreds of conversation files and logs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
