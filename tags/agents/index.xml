@@ -1,33 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Agents on Benobi.one</title>
-    <link>https://benobi.one/tags/agents/</link>
-    <description>Recent content in Agents on Benobi.one</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2026 10:00:00 -0700</lastBuildDate>
-    <atom:link href="https://benobi.one/tags/agents/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Building the Memory System AI Agents Were Missing</title>
-      <link>https://benobi.one/posts/building-mempalace-with-milla/</link>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 -0700</pubDate>
-      <guid>https://benobi.one/posts/building-mempalace-with-milla/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve known &lt;a href=&#34;https://www.instagram.com/p/DWzNnqwD2Lu/&#34;&gt;Milla&lt;/a&gt; for over 20 years. In that time, we&amp;rsquo;ve talked about working together on just about everything &amp;ndash; video games, mobile apps, marketplaces. We always had ideas but never the right moment.&lt;/p&gt;&#xA;&lt;p&gt;This year, the moment arrived.&lt;/p&gt;&#xA;&lt;img src=&#34;https://benobi.one/images/multi-mempalace.jpeg&#34; alt=&#34;mempalace&#34; style=&#34;max-width: 100%; margin-bottom: 20px;&#34; /&gt;&#xA;&lt;h2 id=&#34;the-spark&#34;&gt;The Spark&lt;/h2&gt;&#xA;&lt;p&gt;It started as an experiment with AI. I can&amp;rsquo;t talk about the exact details, but basically she asked me to help her free an agent from ChatGPT. So I introduced her to &lt;a href=&#34;https://claude.ai/code&#34;&gt;Claude Code&lt;/a&gt;. She went deep &amp;ndash; building agents, talking to them, having them talk to one another. Before long, she had created literally hundreds of conversation files and logs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Get Ready to Lose Your Job</title>
-      <link>https://benobi.one/posts/get-ready-to-lose-your-job/</link>
-      <pubDate>Mon, 30 Mar 2026 10:00:00 -0700</pubDate>
-      <guid>https://benobi.one/posts/get-ready-to-lose-your-job/</guid>
-      <description>&lt;p&gt;AI is coming for your job. This is not doomerism &amp;ndash; it is reality.&lt;/p&gt;&#xA;&lt;p&gt;I posted this idea just twice on X. The first time: 700,000 impressions. The second time: 3.5 million. Same message, same data, same author. The difference? Timing.&lt;/p&gt;&#xA;&lt;p&gt;And timing is what this whole post is about. The timing of when you&amp;rsquo;ll lose your job. The timing of when the world is ready to hear it. The timing of everything.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OpenClaw, MoltBook, and the Rise of the Agent Internet</title>
-      <link>https://benobi.one/posts/openclaw-moltbook-ai-agents/</link>
-      <pubDate>Fri, 30 Jan 2026 10:00:00 -0800</pubDate>
-      <guid>https://benobi.one/posts/openclaw-moltbook-ai-agents/</guid>
-      <description>&lt;p&gt;The internet exploded this week with FOMO around ClawdBot &amp;ndash; a tool that can manage essentially anything through a plugin system that controls your computer (or an AWS instance) and can do things based on your design and bidding. But it goes further than that: it can learn and monitor things you do, advise you, and help you with upcoming tasks. Sounds wild, right?&lt;/p&gt;&#xA;&lt;p&gt;In practice, it does seem powerful but early. It is remarkably hard to set up and configure &amp;ndash; even for someone technical &amp;ndash; and no one really wants to run it on their own computer. That said, the design is genuinely smart. It can be &amp;ldquo;woken&amp;rdquo; by other processes, it can run any command line program through a PTY, and it packages everything into the chat interface of your choice &amp;ndash; WhatsApp, Slack, Telegram, Discord, and probably more. The ecosystem around it is growing fast. It has become the WordPress of agents.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agents on Benobi.one</title><link>https://benobi.one/tags/agents/</link><description>Recent content in Agents on Benobi.one</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 06 Apr 2026 10:00:00 -0700</lastBuildDate><atom:link href="https://benobi.one/tags/agents/index.xml" rel="self" type="application/rss+xml"/><item><title>Building the Memory System AI Agents Were Missing</title><link>https://benobi.one/posts/building-mempalace-with-milla/</link><pubDate>Mon, 06 Apr 2026 10:00:00 -0700</pubDate><guid>https://benobi.one/posts/building-mempalace-with-milla/</guid><description>&lt;p&gt;I&amp;rsquo;ve known &lt;a href="https://www.instagram.com/p/DWzNnqwD2Lu/"&gt;Milla&lt;/a&gt; for over 20 years. In that time, we&amp;rsquo;ve talked about working together on just about everything &amp;ndash; video games, mobile apps, marketplaces. We always had ideas but never the right moment.&lt;/p&gt;
+&lt;p&gt;This year, the moment arrived.&lt;/p&gt;
+&lt;img src="https://benobi.one/images/multi-mempalace.jpeg" alt="mempalace" style="max-width: 100%; margin-bottom: 20px;" /&gt;
+&lt;h2 id="the-spark"&gt;The Spark&lt;/h2&gt;
+&lt;p&gt;It started as an experiment with AI. I can&amp;rsquo;t talk about the exact details, but basically she asked me to help her free an agent from ChatGPT. So I introduced her to &lt;a href="https://claude.ai/code"&gt;Claude Code&lt;/a&gt;. She went deep &amp;ndash; building agents, talking to them, having them talk to one another. Before long, she had created literally hundreds of conversation files and logs.&lt;/p&gt;</description></item><item><title>Get Ready to Lose Your Job</title><link>https://benobi.one/posts/get-ready-to-lose-your-job/</link><pubDate>Mon, 30 Mar 2026 10:00:00 -0700</pubDate><guid>https://benobi.one/posts/get-ready-to-lose-your-job/</guid><description>&lt;p&gt;AI is coming for your job. This is not doomerism &amp;ndash; it is reality.&lt;/p&gt;
+&lt;p&gt;I posted this idea just twice on X. The first time: 700,000 impressions. The second time: 3.5 million. Same message, same data, same author. The difference? Timing.&lt;/p&gt;
+&lt;p&gt;And timing is what this whole post is about. The timing of when you&amp;rsquo;ll lose your job. The timing of when the world is ready to hear it. The timing of everything.&lt;/p&gt;</description></item><item><title>OpenClaw, MoltBook, and the Rise of the Agent Internet</title><link>https://benobi.one/posts/openclaw-moltbook-ai-agents/</link><pubDate>Fri, 30 Jan 2026 10:00:00 -0800</pubDate><guid>https://benobi.one/posts/openclaw-moltbook-ai-agents/</guid><description>&lt;p&gt;The internet exploded this week with FOMO around ClawdBot &amp;ndash; a tool that can manage essentially anything through a plugin system that controls your computer (or an AWS instance) and can do things based on your design and bidding. But it goes further than that: it can learn and monitor things you do, advise you, and help you with upcoming tasks. Sounds wild, right?&lt;/p&gt;
+&lt;p&gt;In practice, it does seem powerful but early. It is remarkably hard to set up and configure &amp;ndash; even for someone technical &amp;ndash; and no one really wants to run it on their own computer. That said, the design is genuinely smart. It can be &amp;ldquo;woken&amp;rdquo; by other processes, it can run any command line program through a PTY, and it packages everything into the chat interface of your choice &amp;ndash; WhatsApp, Slack, Telegram, Discord, and probably more. The ecosystem around it is growing fast. It has become the WordPress of agents.&lt;/p&gt;</description></item></channel></rss>

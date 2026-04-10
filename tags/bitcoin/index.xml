@@ -1,54 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Bitcoin on Benobi.one</title>
-    <link>https://benobi.one/tags/bitcoin/</link>
-    <description>Recent content in Bitcoin on Benobi.one</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 30 Mar 2026 10:00:00 -0700</lastBuildDate>
-    <atom:link href="https://benobi.one/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Get Ready to Lose Your Job</title>
-      <link>https://benobi.one/posts/get-ready-to-lose-your-job/</link>
-      <pubDate>Mon, 30 Mar 2026 10:00:00 -0700</pubDate>
-      <guid>https://benobi.one/posts/get-ready-to-lose-your-job/</guid>
-      <description>&lt;p&gt;AI is coming for your job. This is not doomerism &amp;ndash; it is reality.&lt;/p&gt;&#xA;&lt;p&gt;I posted this idea just twice on X. The first time: 700,000 impressions. The second time: 3.5 million. Same message, same data, same author. The difference? Timing.&lt;/p&gt;&#xA;&lt;p&gt;And timing is what this whole post is about. The timing of when you&amp;rsquo;ll lose your job. The timing of when the world is ready to hear it. The timing of everything.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bitcoin One Pager Version 3: A Better Resource for Understanding Bitcoin</title>
-      <link>https://benobi.one/posts/bitcoin-one-pager-v3/</link>
-      <pubDate>Sun, 16 Nov 2025 10:00:00 -0800</pubDate>
-      <guid>https://benobi.one/posts/bitcoin-one-pager-v3/</guid>
-      <description>&lt;h2 id=&#34;the-problem-no-great-starting-point&#34;&gt;The Problem: No Great Starting Point&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been thinking about this for a while - there&amp;rsquo;s really no great resource that I&amp;rsquo;m aware of for sending someone who is trying to get into Bitcoin or knows nothing about it. You know the conversation: a friend says &amp;ldquo;I still don&amp;rsquo;t understand it, man. I&amp;rsquo;ve been friends with you for years and I still don&amp;rsquo;t get Bitcoin.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;I wanted to create something better.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Is Paul Le Roux Satoshi Nakamoto? A Critical Analysis</title>
-      <link>https://benobi.one/posts/le-roux-is-not-satoshi/</link>
-      <pubDate>Mon, 18 Nov 2024 18:57:29 -0800</pubDate>
-      <guid>https://benobi.one/posts/le-roux-is-not-satoshi/</guid>
-      <description>&lt;p&gt;Paul Le Roux, a criminal mastermind and skilled programmer, has often been suggested as a candidate for Satoshi Nakamoto, the pseudonymous creator of Bitcoin. While Le Roux&amp;rsquo;s background in encryption and technology makes him an interesting candidate, there are significant issues with this theory.&lt;/p&gt;&#xA;&lt;h2 id=&#34;timeline-inconsistencies&#34;&gt;Timeline Inconsistencies&lt;/h2&gt;&#xA;&lt;h3 id=&#34;satoshis-disappearance-vs-le-rouxs-arrest&#34;&gt;Satoshi&amp;rsquo;s Disappearance vs Le Roux&amp;rsquo;s Arrest&lt;/h3&gt;&#xA;&lt;p&gt;Satoshi Nakamoto&amp;rsquo;s last public message in April 2011 stated &amp;ldquo;I&amp;rsquo;ve moved on to other things.&amp;rdquo; This voluntary departure came 17 months before Le Roux&amp;rsquo;s arrest in September 2012 in Liberia. The timing makes little sense - why would Satoshi/Le Roux abandon Bitcoin well before any legal troubles?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bitcoin 101: A Simple Guide to Share</title>
-      <link>https://benobi.one/posts/bitcoin-101/</link>
-      <pubDate>Sun, 03 Nov 2024 12:03:21 -0800</pubDate>
-      <guid>https://benobi.one/posts/bitcoin-101/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;📣 New Version Available!&lt;/strong&gt; Version 3 of the Bitcoin 101 guide is now available at &lt;a href=&#34;https://bitcoinonepager.com&#34;&gt;bitcoinonepager.com&lt;/a&gt; with updated stats, improved design, and the option to order high-quality laminated prints. The original Version 2 PDF is &lt;a href=&#34;https://benobi.one/files/Bitcoin-101-One-Pager.pdf&#34;&gt;still available here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I created this simple one-page guide to help explain Bitcoin to friends, family members, and anyone interested in learning the basics. Version 3 is now available with updated stats and improved design!&lt;/p&gt;&#xA;&lt;h2 id=&#34;visit-bitcoinonepagercom&#34;&gt;&lt;a href=&#34;https://bitcoinonepager.com&#34;&gt;Visit BitcoinOnePager.com&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Download the free PDF or order high-quality laminated prints at &lt;a href=&#34;https://bitcoinonepager.com&#34;&gt;bitcoinonepager.com&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Satoshi&#39;s Soup</title>
-      <link>https://benobi.one/posts/ingredients-of-bitcoin/</link>
-      <pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate>
-      <guid>https://benobi.one/posts/ingredients-of-bitcoin/</guid>
-      <description>&lt;h2 id=&#34;who-was-satoshi&#34;&gt;Who was Satoshi?&lt;/h2&gt;&#xA;&lt;p&gt;It has been a personal fascination of mine since 2012. Who is this mysterious creator of Bitcoin? We can never know for sure, but we can learn a lot about Satoshi by looking at the sources of where they were getting inspiration as well as theory.&lt;/p&gt;&#xA;&lt;p&gt;One interesting conclustion reached by my friend and mathematcian Dr. Frederick Krueger (@dotkrueger on Twitter). Fred went through the math of the Bitcoin Whitepaper and verified all of the math proofs recently. His conclusion is that it seems highly likely that Satoshi was someone who either had access to a post-graduate level mathematician, or was one.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fast Sync for Initial Bitcoin Node</title>
-      <link>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</link>
-      <pubDate>Fri, 03 Mar 2023 12:03:53 -0800</pubDate>
-      <guid>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</guid>
-      <description>&lt;p&gt;The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:&lt;/p&gt;&#xA;&lt;h2 id=&#34;option-1---use-this-bitcoin-fast-sync-command&#34;&gt;Option 1 - Use This Bitcoin Fast Sync Command&lt;/h2&gt;&#xA;&lt;p&gt;There is no torrent or copy method which would be faster than just using the Bitcoin network &amp;ldquo;hive&amp;rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bitcoin on Benobi.one</title><link>https://benobi.one/tags/bitcoin/</link><description>Recent content in Bitcoin on Benobi.one</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Mar 2026 10:00:00 -0700</lastBuildDate><atom:link href="https://benobi.one/tags/bitcoin/index.xml" rel="self" type="application/rss+xml"/><item><title>Get Ready to Lose Your Job</title><link>https://benobi.one/posts/get-ready-to-lose-your-job/</link><pubDate>Mon, 30 Mar 2026 10:00:00 -0700</pubDate><guid>https://benobi.one/posts/get-ready-to-lose-your-job/</guid><description>&lt;p&gt;AI is coming for your job. This is not doomerism &amp;ndash; it is reality.&lt;/p&gt;
+&lt;p&gt;I posted this idea just twice on X. The first time: 700,000 impressions. The second time: 3.5 million. Same message, same data, same author. The difference? Timing.&lt;/p&gt;
+&lt;p&gt;And timing is what this whole post is about. The timing of when you&amp;rsquo;ll lose your job. The timing of when the world is ready to hear it. The timing of everything.&lt;/p&gt;</description></item><item><title>Bitcoin One Pager Version 3: A Better Resource for Understanding Bitcoin</title><link>https://benobi.one/posts/bitcoin-one-pager-v3/</link><pubDate>Sun, 16 Nov 2025 10:00:00 -0800</pubDate><guid>https://benobi.one/posts/bitcoin-one-pager-v3/</guid><description>&lt;h2 id="the-problem-no-great-starting-point"&gt;The Problem: No Great Starting Point&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve been thinking about this for a while - there&amp;rsquo;s really no great resource that I&amp;rsquo;m aware of for sending someone who is trying to get into Bitcoin or knows nothing about it. You know the conversation: a friend says &amp;ldquo;I still don&amp;rsquo;t understand it, man. I&amp;rsquo;ve been friends with you for years and I still don&amp;rsquo;t get Bitcoin.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I wanted to create something better.&lt;/p&gt;</description></item><item><title>Is Paul Le Roux Satoshi Nakamoto? A Critical Analysis</title><link>https://benobi.one/posts/le-roux-is-not-satoshi/</link><pubDate>Mon, 18 Nov 2024 18:57:29 -0800</pubDate><guid>https://benobi.one/posts/le-roux-is-not-satoshi/</guid><description>&lt;p&gt;Paul Le Roux, a criminal mastermind and skilled programmer, has often been suggested as a candidate for Satoshi Nakamoto, the pseudonymous creator of Bitcoin. While Le Roux&amp;rsquo;s background in encryption and technology makes him an interesting candidate, there are significant issues with this theory.&lt;/p&gt;
+&lt;h2 id="timeline-inconsistencies"&gt;Timeline Inconsistencies&lt;/h2&gt;
+&lt;h3 id="satoshis-disappearance-vs-le-rouxs-arrest"&gt;Satoshi&amp;rsquo;s Disappearance vs Le Roux&amp;rsquo;s Arrest&lt;/h3&gt;
+&lt;p&gt;Satoshi Nakamoto&amp;rsquo;s last public message in April 2011 stated &amp;ldquo;I&amp;rsquo;ve moved on to other things.&amp;rdquo; This voluntary departure came 17 months before Le Roux&amp;rsquo;s arrest in September 2012 in Liberia. The timing makes little sense - why would Satoshi/Le Roux abandon Bitcoin well before any legal troubles?&lt;/p&gt;</description></item><item><title>Bitcoin 101: A Simple Guide to Share</title><link>https://benobi.one/posts/bitcoin-101/</link><pubDate>Sun, 03 Nov 2024 12:03:21 -0800</pubDate><guid>https://benobi.one/posts/bitcoin-101/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;📣 New Version Available!&lt;/strong&gt; Version 3 of the Bitcoin 101 guide is now available at &lt;a href="https://bitcoinonepager.com"&gt;bitcoinonepager.com&lt;/a&gt; with updated stats, improved design, and the option to order high-quality laminated prints. The original Version 2 PDF is &lt;a href="https://benobi.one/files/Bitcoin-101-One-Pager.pdf"&gt;still available here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I created this simple one-page guide to help explain Bitcoin to friends, family members, and anyone interested in learning the basics. Version 3 is now available with updated stats and improved design!&lt;/p&gt;
+&lt;h2 id="visit-bitcoinonepagercom"&gt;&lt;a href="https://bitcoinonepager.com"&gt;Visit BitcoinOnePager.com&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Download the free PDF or order high-quality laminated prints at &lt;a href="https://bitcoinonepager.com"&gt;bitcoinonepager.com&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Satoshi's Soup</title><link>https://benobi.one/posts/ingredients-of-bitcoin/</link><pubDate>Mon, 22 May 2023 15:56:40 -0800</pubDate><guid>https://benobi.one/posts/ingredients-of-bitcoin/</guid><description>&lt;h2 id="who-was-satoshi"&gt;Who was Satoshi?&lt;/h2&gt;
+&lt;p&gt;It has been a personal fascination of mine since 2012. Who is this mysterious creator of Bitcoin? We can never know for sure, but we can learn a lot about Satoshi by looking at the sources of where they were getting inspiration as well as theory.&lt;/p&gt;
+&lt;p&gt;One interesting conclustion reached by my friend and mathematcian Dr. Frederick Krueger (@dotkrueger on Twitter). Fred went through the math of the Bitcoin Whitepaper and verified all of the math proofs recently. His conclusion is that it seems highly likely that Satoshi was someone who either had access to a post-graduate level mathematician, or was one.&lt;/p&gt;</description></item><item><title>Fast Sync for Initial Bitcoin Node</title><link>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</link><pubDate>Fri, 03 Mar 2023 12:03:53 -0800</pubDate><guid>https://benobi.one/posts/3-options-to-quickly-sync-a-bitcoin-node/</guid><description>&lt;p&gt;The initial sync of your Bitcoin node can take up to a week on a slow CPU and internet connection. Here are some options to speed it up:&lt;/p&gt;
+&lt;h2 id="option-1---use-this-bitcoin-fast-sync-command"&gt;Option 1 - Use This Bitcoin Fast Sync Command&lt;/h2&gt;
+&lt;p&gt;There is no torrent or copy method which would be faster than just using the Bitcoin network &amp;ldquo;hive&amp;rdquo; - which is huge. There may be a way to sync using local or low-latency nodes nearby, but any time you specify which nodes you sync from - it introduces risk.&lt;/p&gt;</description></item></channel></rss>
