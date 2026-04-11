@@ -439,7 +439,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 &lt;p&gt;The official Claude Chrome extension brings Claude&amp;rsquo;s AI capabilities directly into your browser. Quickly access Claude from any webpage to help with reading, writing, and analysis tasks.&lt;/p&gt;</description></item><item><title>XAVIOR</title><link>https://benobi.one/xavior/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://benobi.one/xavior/</guid><description>&lt;div class="mp-page"&gt;
 &lt;div class="mp-hero"&gt;
  &lt;img src="https://benobi.one/images/xavior-ai-square.jpg" alt="XAVIOR" class="mp-logo"&gt;
- &lt;p class="mp-tagline"&gt;One workspace. Ten AI models. Zero noise.&lt;/p&gt;
+ &lt;p class="mp-tagline"&gt;AI connected to all your data — with the power to act.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="mp-stats"&gt;
  &lt;div class="mp-stat"&gt;
@@ -447,19 +447,19 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
  &lt;span class="mp-stat-label"&gt;Custom fine-tuned models&lt;/span&gt;
  &lt;/div&gt;
  &lt;div class="mp-stat"&gt;
- &lt;span class="mp-stat-num"&gt;6&lt;/span&gt;
- &lt;span class="mp-stat-label"&gt;Domains unified&lt;/span&gt;
+ &lt;span class="mp-stat-num"&gt;16+&lt;/span&gt;
+ &lt;span class="mp-stat-label"&gt;Integrations&lt;/span&gt;
  &lt;/div&gt;
  &lt;div class="mp-stat"&gt;
- &lt;span class="mp-stat-num"&gt;1&lt;/span&gt;
- &lt;span class="mp-stat-label"&gt;Workspace&lt;/span&gt;
+ &lt;span class="mp-stat-num"&gt;Layer 2&lt;/span&gt;
+ &lt;span class="mp-stat-label"&gt;AI that acts&lt;/span&gt;
  &lt;/div&gt;
  &lt;div class="mp-stat"&gt;
- &lt;span class="mp-stat-num"&gt;$12M&lt;/span&gt;
- &lt;span class="mp-stat-label"&gt;Raising&lt;/span&gt;
+ &lt;span class="mp-stat-num"&gt;Patent&lt;/span&gt;
+ &lt;span class="mp-stat-label"&gt;Pending&lt;/span&gt;
  &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="mp-section"&gt;
 &lt;h2 id="the-problem"&gt;The Problem&lt;/h2&gt;
 &lt;p&gt;The average human lifespan is about 20,000 days. A lot of those days are spent switching between apps, chasing notifications, and trying to keep track of everything.&lt;/p&gt;
-&lt;p&gt;You have a CRM for contacts. A calendar for events. A project manager for tasks. A notes app for ideas. A docs tool for writing. Each one sends alerts. Each one has its own search. None of them talk to each other. The result is that the tools meant to help you stay organized are actually the reason you can&amp;rsquo;t focus.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Today&amp;rsquo;s AI is powerful but disconnected — it can&amp;rsquo;t see your inbox, calendar, or deals. You end up copy-pasting between AI and your tools, managing context manually, and doing the busywork that AI was supposed to eliminate.&lt;/p&gt;</description></item></channel></rss>
