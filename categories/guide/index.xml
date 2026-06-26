@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Ben Sigman</title><link>https://benobi.one/categories/guide/</link><description>Recent content in Guide on Ben Sigman</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 26 Jun 2026 14:30:00 -0700</lastBuildDate><atom:link href="https://benobi.one/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>How I Gave Myself a Google Knowledge Panel</title><link>https://benobi.one/posts/google-knowledge-panel-guide/</link><pubDate>Fri, 26 Jun 2026 14:30:00 -0700</pubDate><guid>https://benobi.one/posts/google-knowledge-panel-guide/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;A scroll-snap slide presentation of this guide lives at &lt;a href="https://benobi.one/panel.html"&gt;benobi.one/panel.html&lt;/a&gt;.
+If you just want the wow + the recipe, start there. The article below is the full manual.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="google-knowledge-panel-setup-guide"&gt;Google Knowledge Panel Setup Guide&lt;/h1&gt;
+&lt;p&gt;A step-by-step guide for getting a Google Knowledge Panel as an author/entrepreneur. Based on what worked for Ben Sigman&amp;rsquo;s setup.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="1-schema-markup-json-ld-on-your-website"&gt;1. Schema Markup (JSON-LD on your website)&lt;/h2&gt;
+&lt;p&gt;Add this to the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of every page on your site. It tells Google exactly who you are in machine-readable format.&lt;/p&gt;</description></item></channel></rss>
