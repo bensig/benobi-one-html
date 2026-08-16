@@ -359,7 +359,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 &lt;li&gt;&lt;strong&gt;X&lt;/strong&gt; — &lt;a href="https://x.com/bensig"&gt;x.com/bensig&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt; — &lt;a href="mailto:ben@benobi.one"&gt;ben@benobi.one&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — &lt;a href="https://github.com/bensig"&gt;github.com/bensig&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GPG&lt;/strong&gt; — &lt;code&gt;C85A 0311 F61C 2B5D B5F9 A3FA 14D3 5567 EC8F 7BA0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPG&lt;/strong&gt; — &lt;code&gt;C85A 0311 F61C 2B5D B5F9 A3FA 14D3 5567 EC8F 7BA0&lt;/code&gt; (&lt;a href="https://benobi.one/gpg/2023-GPG.txt"&gt;fingerprint file&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Libre</title><link>https://benobi.one/libre/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://benobi.one/libre/</guid><description>&lt;div class="mp-page"&gt;
 &lt;div class="mp-hero"&gt;
  &lt;img src="https://benobi.one/images/borrow-or-lend.png" alt="Libre" class="mp-logo"&gt;
